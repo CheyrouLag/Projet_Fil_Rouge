@@ -1,0 +1,54 @@
+#photo_animal{
+	width: 90%;
+	height: auto;
+	margin-top: 10%;
+}
+
+#nom_animaux{
+	font-size: 30px;
+	font-family: cursive;
+}
+
+#conteneur1{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    text-align: center;
+    color:white;
+}
+
+#conteneur2{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    text-align: center;
+    color:white;
+}
+
+#conteneur1 .element:nth-child(1){
+	background-image: url(images/fond-bois.jpg)	;
+	width: 40% ;
+	border-radius: 30px;
+	padding : 5% 2%;
+}
+
+#conteneur1 .element:nth-child(2){
+	background-image:url(images/fond-bois.jpg);
+	width: 40%;
+	border-radius: 30px;
+	padding : 5% 2%;
+}
+
+#conteneur2 .element:nth-child(1){
+	background-image: url(images/fond-bois.jpg);
+	width: 40%;
+	border-radius: 30px;
+	padding : 5% 2%;
+}
+
+#conteneur2 .element:nth-child(2){
+	background-image: url(images/fond-bois.jpg);
+	width: 40%;
+	border-radius: 30px;
+	padding : 5% 2%;
+}
